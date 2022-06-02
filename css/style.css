@@ -27,13 +27,13 @@
     background: #f8faf8;
 }
 .blogbox{
-    background-color: lightgray;
-    border: 3px solid lightblue;
+    background-color: #F0F0F0;
+    /* border: 3px solid lightblue; */
     width: 20em;
     height: 30em;
 }
 .sidebarbox{
-    background-color: lightgray;
+    background-color: #F0F0F0;
     border: 1px solid lightblue;
     margin: 5px;
     width: 4em;
@@ -64,4 +64,15 @@
 }
 .arial {
     font-family: Arial;
+}
+.blog-title{
+    color: #6dd5ed;
+    font-family: Didot;
+    margin:10px;
+    line-height: 50px;
+}
+.blog-summary{
+    font-family: cursive;
+    margin:10px;
+    line-height: 40px;
 }
