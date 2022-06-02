@@ -45,6 +45,16 @@
 .siderbar{
     grid-area:sd;
 }
+.sidebar-btn-group{
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    width: 45%; 
+    /* margin: 50px solid red; */
+    border: 10px;
+    margin-bottom: 10px;
+    /* display: block;  */
+}
 .content{
     grid-area:main;
 }
