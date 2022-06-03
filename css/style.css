@@ -6,34 +6,38 @@
     "hd hd hd hd hd hd hd hd hd"
     "sd main main main main main main main main"
     "ft ft ft ft ft ft ft ft ft";
-    border: 2px solid yellow;
+    border: 2px solid white;
 }
 .content-flex-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    border: 2px solid orange;
-    padding: 5em;
+    border: 2px solid white;
+    background-color: white;
+    padding: 5px;
 }
 .sidebar-flex-container{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-    border: 2px solid black;
+    margin: 10px;
+    border: 2px solid white;
+    background-color: white;
 }
 .box{
-    border: 1px solid red;
-    background: #f8faf8;
+    border: 1px solid white;
+    background: white;
 }
 .blogbox{
-    background-color: #F0F0F0;
+    /* background-color: #F0F0F0; */
+    background-color: #6dd5ed;
     /* border: 3px solid lightblue; */
     width: 20em;
     height: 30em;
 }
 .sidebarbox{
-    background-color: #F0F0F0;
+    background-color: white;
     border: 1px solid lightblue;
     margin: 5px;
     width: 4em;
@@ -41,9 +45,11 @@
 }
 .header{
     grid-area:hd;
+    background-color: white;
 }
 .siderbar{
     grid-area:sd;
+    background-color: white;
 }
 .sidebar-btn-group{
     color: white; 
@@ -53,10 +59,12 @@
     /* margin: 50px solid red; */
     border: 10px;
     margin-bottom: 10px;
+    padding: 10px;
     /* display: block;  */
 }
 .content{
     grid-area:main;
+    background-color: white;
 }
 .footer{
     grid-area:ft;
@@ -66,7 +74,7 @@
     font-family: Arial;
 }
 .blog-title{
-    color: #6dd5ed;
+    color: grey;
     font-family: Didot;
     margin:10px;
     line-height: 50px;
