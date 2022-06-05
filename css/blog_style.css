@@ -19,6 +19,7 @@
 .sidebar{
     grid-area:sd;
     padding-top: 30px;
+    padding-left: 20px;
 }
 .content{
     grid-area:main;
