@@ -4,12 +4,12 @@
     grid-template-rows: 150px 700px 50px;
     grid-template-areas: 
     "sd hd hd hd hd hd hd hd hd"
-    "sd main main main main main main main main"
-    "ft ft ft ft ft ft ft ft ft";
-    border: 2px solid black;
+    "sd main main main main main main main main";
+    /* "ft ft ft ft ft ft ft ft ft"; */
+    border: 2px solid white;
 }
 .box{
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .header{
     grid-area:hd;
@@ -35,4 +35,9 @@
 .author-desc{
     font-family: Didot;
     margin-top: -15px;
+}
+.link{
+    color: #6dd5ed;
+    font: Diadot;
+    font-weight: 900;
 }
