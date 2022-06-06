@@ -76,6 +76,7 @@
 .blog-title{
     color: grey;
     font-family: Didot;
+    font-weight: bold;
     margin:10px;
     line-height: 50px;
 }
