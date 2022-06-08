@@ -27,13 +27,19 @@
 .footer{
     grid-area:ft;
 }
+.author-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 .author{
     color: lightskyblue;
     font-family: Didot;
+    border: 2px solid white;
 }
-.author-desc{
+.author-title{
     font-family: Didot;
-    margin-top: -15px;
+    border: 2px solid white;
 }
 .link{
     color: #6dd5ed;
