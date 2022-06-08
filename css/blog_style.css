@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-columns: 80px 100px 300px;
+    grid-template-columns: 115px 100px 300px;
     grid-template-rows: 150px 700px 50px;
     grid-template-areas: 
     "sd hd hd hd hd hd hd hd hd"
@@ -22,7 +22,7 @@
 }
 .content{
     grid-area:main;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 .footer{
     grid-area:ft;
