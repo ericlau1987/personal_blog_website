@@ -6,15 +6,15 @@
     "hd hd hd hd hd hd hd hd hd"
     "sd main main main main main main main main"
     "ft ft ft ft ft ft ft ft ft";
-    border: 2px solid white;
+    border: 2px solid black;
 }
 .content-flex-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid black;
+    background-color: black;
     padding: 5px;
     flex-wrap: wrap;
 }
@@ -23,50 +23,47 @@
     flex-direction: column;
     align-content: flex-start;
     margin: 10px;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid black;
+    background-color: black;
 }
 .box{
-    border: 1px solid white;
-    background: white;
+    border: 1px solid black;
+    background: black;
 }
 .blogbox{
-    /* background-color: #F0F0F0; */
-    background-color: #6dd5ed;
-    /* border: 3px solid lightblue; */
+    background-color: #08c6f1;
+    color: black;
     width: 20em;
     height: 30em;
-    border: 10px solid white;
+    border: 10px solid black;
 }
 .sidebarbox{
-    background-color: white;
-    border: 1px solid lightblue;
+    background-color: black;
     margin: 5px;
     width: 4em;
     height: 3em;
 }
 .header{
     grid-area:hd;
-    background-color: white;
+    background-color: black;
 }
 .siderbar{
     grid-area:sd;
-    background-color: white;
+    background-color: black;
+    color: white;
 }
 .sidebar-btn-group{
     color: white; 
-    /* padding: 10px 24px;  */
     cursor: pointer; 
     width: 45%; 
-    /* margin: 50px solid red; */
     border: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    /* display: block;  */
 }
 .content{
     grid-area:main;
-    background-color: white;
+    background-color: black;
+    color: white;
 }
 .footer{
     grid-area:ft;
@@ -75,17 +72,27 @@
 .arial {
     font-family: Arial;
 }
+.white{
+    color: white
+}
 .blog-title{
-    color: grey;
-    font-family: Didot;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin:10px;
     line-height: 50px;
 }
 .blog-summary{
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     margin:10px;
     line-height: 40px;
+}
+a:hover {
+    color: gray;
+}
+a{
+    font-size: large;
+    margin: auto;
 }
 @media screen and (min-width: 750px) and (max-width: 1254px) {
     .container{
@@ -96,15 +103,15 @@
         "hd hd hd hd hd hd hd hd hd"
         "sd main main main main main main main main"
         "ft ft ft ft ft ft ft ft ft";
-        border: 2px solid white;
+        border: 2px solid black;
     }
     .content-flex-container{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        border: 2px solid white;
-        background-color: white;
+        border: 2px solid black;
+        background-color: black;
         padding: 5px;
         flex-wrap: wrap;
     }
@@ -118,7 +125,7 @@
         "hd hd hd hd hd hd hd hd hd"
         "sd main main main main main main main main"
         "ft ft ft ft ft ft ft ft ft";
-        border: 2px solid white;
+        border: 2px solid black;
         width: 100%;
     }
     .content-flex-container{
@@ -126,14 +133,15 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        border: 2px solid white;
-        background-color: white;
+        border: 2px solid black;
+        background-color: black;
         padding: 5px;
     }
     .blogbox{
         background-color: #6dd5ed;
-        /* border: 3px solid lightblue; */
+        color: black;
         width: 20em;
         height: 30em;
+        border: solid 4px white
     }
 }
