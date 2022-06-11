@@ -10,20 +10,20 @@
 .box{
     border: 2px solid ;
 }
-.header{
+.blog-header{
     grid-area:hd;
     padding-left: 50px;
 }
-.sidebar{
+.blog-sidebar{
     grid-area:sd;
     padding-top: 30px;
     padding-left: 20px;
 }
-.content{
+.blog-content{
     grid-area:main;
     padding-left: 40px;
 }
-.footer{
+.blog-footer{
     grid-area:ft;
 }
 .author-desc{
