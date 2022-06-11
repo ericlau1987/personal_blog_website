@@ -8,3 +8,18 @@ a{
     font-size: large;
     margin: auto;
 }
+.link{
+    color: #6dd5ed;
+    font: Diadot;
+    font-weight: 900;
+    font-size: large;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underlined{
+    text-decoration: underline;
+}
