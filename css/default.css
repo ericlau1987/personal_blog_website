@@ -1,0 +1,10 @@
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    color: #C8CDD2;
+}
+a{
+    font-size: large;
+    margin: auto;
+}

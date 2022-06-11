@@ -1,3 +1,16 @@
-.white{
+/* backgound color */
+.bg-color{
+    background-color: white;
+}
+.primary-font-color{
+    color: #1F2932;
+}
+.secondary-font-color{
     color: white;
+}
+.border-color{
+    border: white;
+}
+.card-color{
+    background-color: #017A9B;
 }
