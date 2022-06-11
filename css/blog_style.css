@@ -1,20 +1,18 @@
-.container{
+.blog-container{
     display: grid;
     grid-template-columns: 115px 100px 300px;
     grid-template-rows: 150px 700px 50px;
     grid-template-areas: 
     "sd hd hd hd hd hd hd hd hd"
     "sd main main main main main main main main";
-    border: 2px solid black;
-    background-color: black;
+    border: 2px solid ;
 }
 .box{
-    border: 2px solid black;
+    border: 2px solid ;
 }
 .header{
     grid-area:hd;
     padding-left: 50px;
-    color: white;
 }
 .sidebar{
     grid-area:sd;
@@ -24,7 +22,6 @@
 .content{
     grid-area:main;
     padding-left: 40px;
-    color: white;
 }
 .footer{
     grid-area:ft;
@@ -38,27 +35,13 @@
     color: lightcoral;
     font-weight: bold;
     font-family: Didot;
-    border: 2px solid black;
+    border: 2px solid;
 }
 .author-title{
     font-family: Didot;
-    border: 2px solid black;
+    border: 2px solid;
 }
-.bold{
-    font-weight: bold;
-}
-.italic{
-    font-style: italic;
-}
-.underlined{
-    text-decoration: underline;
-}
-.link{
-    color: #6dd5ed;
-    font: Diadot;
-    font-weight: 900;
-    font-size: large;
-}
+
 .image-center{
     display: block;
     margin-left: auto;
@@ -68,20 +51,16 @@
 .image-caption-center{
     text-align: center;
     font-style: italic;
-    color: white;
     font-weight: bold;
 }
-.white{
-    color: white;
-}
 @media screen and (min-width: 800px) {
-    .container{
+    .blog-container{
         display: grid;
         grid-template-columns: 200px 300px 300px;
         grid-template-rows: 150px 1000px 100px;
         grid-template-areas: 
         "sd hd hd hd hd hd hd hd hd"
         "sd main main main main main main main main";
-        border: 2px solid black;
+        border: 2px solid;
     }
 }

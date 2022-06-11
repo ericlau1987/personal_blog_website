@@ -1,0 +1,107 @@
+.hp-container{
+    display: grid;
+    grid-template-columns: 150px 300px 300px;
+    grid-template-rows: 70px 1600px 30px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd"
+    "sd main main main main main main main main"
+    "ft ft ft ft ft ft ft ft ft";
+    border: 2px solid ;
+}
+.hp-content-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid ;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.hp-sidebar-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 10px;
+}
+.blog-card{
+    width: 20em;
+    height: 30em;
+    border: 10px solid ;
+}
+.hp-header{
+    grid-area:hd;
+}
+.hp-siderbar{
+    grid-area:sd;
+}
+.hp-sidebar-btn-group{
+    cursor: pointer; 
+    width: 45%; 
+    border: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* homepage content */
+.hp-content{
+    grid-area:main;
+}
+.hp-footer{
+    grid-area:ft;
+}
+.card-title{
+    font-weight: bold;
+    margin:10px;
+    line-height: 50px;
+}
+.card-summary{
+    margin:10px;
+    line-height: 40px;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1254px) {
+    .hp-container{
+        display: grid;
+        grid-template-columns: 200px 300px 300px;
+        grid-template-rows: 70px 1300px 30px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd hd"
+        "sd main main main main main main main main"
+        "ft ft ft ft ft ft ft ft ft";
+        border: 2px solid;
+    }
+    .hp-content-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid ;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 1255px) {
+    .hp-container{
+        display: grid;
+        grid-template-columns: 200px 300px 300px;
+        grid-template-rows: 150px 700px 30px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd hd"
+        "sd main main main main main main main main"
+        "ft ft ft ft ft ft ft ft ft";
+        border: 2px solid ;
+        width: 100%;
+    }
+    .hp-content-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border: 2px solid ;
+        padding: 5px;
+    }
+    .blog-card{
+        width: 20em;
+        height: 30em;
+        border: solid 4px 
+    }
+}
