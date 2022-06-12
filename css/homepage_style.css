@@ -1,7 +1,7 @@
 .hp-container{
     display: grid;
     grid-template-columns: 150px 300px 300px;
-    grid-template-rows: 70px 1600px 30px;
+    grid-template-rows: 70px 1000px 30px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd hd"
     "sd main main main main main main main main"
@@ -12,21 +12,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     border: 2px solid ;
     padding: 5px;
     flex-wrap: wrap;
 }
-.hp-sidebar-flex-container{
+.hp-sidebar-container{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     margin: 10px;
 }
 .blog-card{
-    width: 20em;
-    height: 30em;
-    border: 10px solid ;
+    width: 10em;
+    height: 34em;
+    border: 5px solid ;
 }
 .hp-header{
     grid-area:hd;
@@ -51,11 +51,13 @@
 .card-title{
     font-weight: bold;
     margin:10px;
-    line-height: 50px;
+    line-height: 15px;
+    font-size: large;
 }
 .card-summary{
     margin:10px;
-    line-height: 40px;
+    line-height: 20px;
+    font-size: medium;
 }
 
 @media screen and (min-width: 750px) and (max-width: 1254px) {
@@ -77,6 +79,22 @@
         border: 2px solid ;
         padding: 5px;
         flex-wrap: wrap;
+    }
+    .blog-card{
+        width: 10em;
+        height: 70em;
+        border: 10px solid ;
+    }
+    .card-title{
+        font-weight: bold;
+        margin:10px;
+        line-height: 50px;
+        font-size: large;
+    }
+    .card-summary{
+        margin:10px;
+        line-height: 40px;
+        font-size: medium;
     }
 }
 @media screen and (min-width: 1255px) {
@@ -103,5 +121,16 @@
         width: 20em;
         height: 30em;
         border: solid 4px 
+    }
+    .card-title{
+        font-weight: bold;
+        margin:10px;
+        line-height: 50px;
+        font-size: large;
+    }
+    .card-summary{
+        margin:10px;
+        line-height: 40px;
+        font-size: medium;
     }
 }
