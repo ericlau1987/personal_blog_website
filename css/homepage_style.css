@@ -1,7 +1,7 @@
 .hp-container{
     display: grid;
     grid-template-columns: 150px 300px 300px;
-    grid-template-rows: 70px 1000px 30px;
+    grid-template-rows: 50px 1650px 20px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd hd"
     "sd main main main main main main main main"
@@ -10,23 +10,20 @@
 }
 .hp-content-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     border: 2px solid ;
     padding: 5px;
-    flex-wrap: wrap;
+    gap: 50px;
+}
+.hp-contnt-title{
+    margin-left: 140px;
 }
 .hp-sidebar-container{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
     margin: 10px;
-}
-.blog-card{
-    width: 10em;
-    height: 34em;
-    border: 5px solid ;
 }
 .hp-header{
     grid-area:hd;
@@ -48,15 +45,20 @@
 .hp-footer{
     grid-area:ft;
 }
+.blog-card{
+    width: 20em;
+    height: 30em;
+    border: solid 4px 
+}
 .card-title{
     font-weight: bold;
     margin:10px;
-    line-height: 15px;
+    line-height: 50px;
     font-size: large;
 }
 .card-summary{
     margin:10px;
-    line-height: 20px;
+    line-height: 40px;
     font-size: medium;
 }
 
@@ -64,7 +66,7 @@
     .hp-container{
         display: grid;
         grid-template-columns: 200px 300px 300px;
-        grid-template-rows: 70px 1300px 30px;
+        grid-template-rows: 70px 1650px 30px;
         grid-template-areas: 
         "hd hd hd hd hd hd hd hd hd"
         "sd main main main main main main main main"
@@ -73,28 +75,15 @@
     }
     .hp-content-container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         border: 2px solid ;
         padding: 5px;
         flex-wrap: wrap;
     }
-    .blog-card{
-        width: 10em;
-        height: 70em;
-        border: 10px solid ;
-    }
-    .card-title{
-        font-weight: bold;
-        margin:10px;
-        line-height: 50px;
-        font-size: large;
-    }
-    .card-summary{
-        margin:10px;
-        line-height: 40px;
-        font-size: medium;
+    .hp-contnt-title{
+        margin-left: auto;
     }
 }
 @media screen and (min-width: 1255px) {
@@ -117,20 +106,7 @@
         border: 2px solid ;
         padding: 5px;
     }
-    .blog-card{
-        width: 20em;
-        height: 30em;
-        border: solid 4px 
-    }
-    .card-title{
-        font-weight: bold;
-        margin:10px;
-        line-height: 50px;
-        font-size: large;
-    }
-    .card-summary{
-        margin:10px;
-        line-height: 40px;
-        font-size: medium;
+    .hp-contnt-title{
+        margin-left: auto;
     }
 }
